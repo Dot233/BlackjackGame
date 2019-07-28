@@ -23,7 +23,7 @@ public:
     void giveCard(Card card);//接收发牌
     //Heap getHand();//获取手牌的引用
     void clear();//清空手牌
-    int getPoint();//计算点数
+    int getPoint();//计算点数 ------ 待优化,A的自动使用策略
 
 private:
     Heap _hand;
