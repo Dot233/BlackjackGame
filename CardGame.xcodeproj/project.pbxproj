@@ -11,6 +11,12 @@
 		8E2351E522EC84A300DD5BEB /* Heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E2351E322EC84A300DD5BEB /* Heap.cpp */; };
 		8E5F16D022EDB1DE00421499 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F16CF22EDB1DE00421499 /* Game.cpp */; };
 		8E5F16D222EDB65500421499 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F16D122EDB65500421499 /* Player.cpp */; };
+		8EC63E6B22EDBF9A008A7C7F /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC63E6522EDBF99008A7C7F /* sfml-audio.framework */; };
+		8EC63E6C22EDBF9A008A7C7F /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC63E6622EDBF99008A7C7F /* sfml-system.framework */; };
+		8EC63E6D22EDBF9A008A7C7F /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC63E6722EDBF99008A7C7F /* sfml-network.framework */; };
+		8EC63E6E22EDBF9A008A7C7F /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC63E6822EDBF9A008A7C7F /* SFML.framework */; };
+		8EC63E6F22EDBF9A008A7C7F /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC63E6922EDBF9A008A7C7F /* sfml-graphics.framework */; };
+		8EC63E7022EDBF9A008A7C7F /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC63E6A22EDBF9A008A7C7F /* sfml-window.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +43,12 @@
 		8E529F2122ECB7FC00C7B15B /* LocalInput.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LocalInput.hpp; sourceTree = "<group>"; };
 		8E5F16CF22EDB1DE00421499 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		8E5F16D122EDB65500421499 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		8EC63E6522EDBF99008A7C7F /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "CardGame/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		8EC63E6622EDBF99008A7C7F /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "CardGame/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		8EC63E6722EDBF99008A7C7F /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "CardGame/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		8EC63E6822EDBF9A008A7C7F /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = CardGame/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		8EC63E6922EDBF9A008A7C7F /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "CardGame/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		8EC63E6A22EDBF9A008A7C7F /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "CardGame/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC63E6E22EDBF9A008A7C7F /* SFML.framework in Frameworks */,
+				8EC63E6B22EDBF9A008A7C7F /* sfml-audio.framework in Frameworks */,
+				8EC63E7022EDBF9A008A7C7F /* sfml-window.framework in Frameworks */,
+				8EC63E6D22EDBF9A008A7C7F /* sfml-network.framework in Frameworks */,
+				8EC63E6F22EDBF9A008A7C7F /* sfml-graphics.framework in Frameworks */,
+				8EC63E6C22EDBF9A008A7C7F /* sfml-system.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +73,7 @@
 			children = (
 				8E2351D822EC82C800DD5BEB /* CardGame */,
 				8E2351D722EC82C800DD5BEB /* Products */,
+				8EC63E5822EDBF35008A7C7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +100,19 @@
 				8E529F2122ECB7FC00C7B15B /* LocalInput.hpp */,
 			);
 			path = CardGame;
+			sourceTree = "<group>";
+		};
+		8EC63E5822EDBF35008A7C7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EC63E6522EDBF99008A7C7F /* sfml-audio.framework */,
+				8EC63E6922EDBF9A008A7C7F /* sfml-graphics.framework */,
+				8EC63E6722EDBF99008A7C7F /* sfml-network.framework */,
+				8EC63E6622EDBF99008A7C7F /* sfml-system.framework */,
+				8EC63E6A22EDBF9A008A7C7F /* sfml-window.framework */,
+				8EC63E6822EDBF9A008A7C7F /* SFML.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +297,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4CXHW7498;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardGame/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -274,6 +310,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4CXHW7498;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardGame/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
